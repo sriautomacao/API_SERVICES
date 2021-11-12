@@ -1,0 +1,20 @@
+{
+	"name": "ResultadoVenda",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"github.com/HashLoad/handle-exception": "^0.1.4",
+		"github.com/HashLoad/horse": "^v2.0.14",
+		"github.com/HashLoad/horse-basic-auth": "^v1.1.4",
+		"github.com/HashLoad/horse-compression": "^1.1.3",
+		"github.com/HashLoad/horse-cors": "^1.0.3",
+		"github.com/HashLoad/horse-octet-stream": "^1.9.5",
+		"github.com/HashLoad/jhonson": "^1.1.2",
+		"github.com/gabrielbaltazar/gbswagger": "^2.1.4",
+		"github.com/hashload/horse-logger": "^2.0.2",
+		"github.com/hashload/horse-logger-provider-logfile": "^1.0.2"
+	}
+}

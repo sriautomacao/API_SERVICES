@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3E70B566-E22E-42BC-BC31-1878DE7E6A41}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="boletos\Boletos.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="serverOS\serverOSdiscontinued.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="APIHorse\serverOSHorseIsapi.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="APIHorse\serveOSConsole.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Boletos">
+        <MSBuild Projects="boletos\Boletos.dproj"/>
+    </Target>
+    <Target Name="Boletos:Clean">
+        <MSBuild Projects="boletos\Boletos.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Boletos:Make">
+        <MSBuild Projects="boletos\Boletos.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="serverOSdiscontinued">
+        <MSBuild Projects="serverOS\serverOSdiscontinued.dproj"/>
+    </Target>
+    <Target Name="serverOSdiscontinued:Clean">
+        <MSBuild Projects="serverOS\serverOSdiscontinued.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="serverOSdiscontinued:Make">
+        <MSBuild Projects="serverOS\serverOSdiscontinued.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="serverOSHorseIsapi">
+        <MSBuild Projects="APIHorse\serverOSHorseIsapi.dproj"/>
+    </Target>
+    <Target Name="serverOSHorseIsapi:Clean">
+        <MSBuild Projects="APIHorse\serverOSHorseIsapi.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="serverOSHorseIsapi:Make">
+        <MSBuild Projects="APIHorse\serverOSHorseIsapi.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="serveOSConsole">
+        <MSBuild Projects="APIHorse\serveOSConsole.dproj"/>
+    </Target>
+    <Target Name="serveOSConsole:Clean">
+        <MSBuild Projects="APIHorse\serveOSConsole.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="serveOSConsole:Make">
+        <MSBuild Projects="APIHorse\serveOSConsole.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Boletos;serverOSdiscontinued;serverOSHorseIsapi;serveOSConsole"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Boletos:Clean;serverOSdiscontinued:Clean;serverOSHorseIsapi:Clean;serveOSConsole:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Boletos:Make;serverOSdiscontinued:Make;serverOSHorseIsapi:Make;serveOSConsole:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

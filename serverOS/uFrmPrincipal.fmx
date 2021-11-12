@@ -1,0 +1,21 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 205
+  ClientWidth = 602
+  Fill.Kind = Solid
+  WindowState = wsMinimized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Switch1: TSwitch
+    IsChecked = True
+    Position.X = 472.000000000000000000
+    Position.Y = 96.000000000000000000
+    TabOrder = 0
+    OnSwitch = Switch1Switch
+  end
+end

@@ -1,0 +1,94 @@
+{
+	"hash": "7d7b38ce46f0adf7fe69aa8ea446fc4f",
+	"updated": "2021-09-27T17:51:28.2264471-03:00",
+	"installedModules": {
+		"github.com/dliocode/horse-utils-clientip": {
+			"name": "horse-utils-clientip",
+			"version": "0.0.6",
+			"hash": "db4c16721abe55f9f8c42c7990101361",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/gabrielbaltazar/gbswagger": {
+			"name": "gbswagger",
+			"version": "2.1.4",
+			"hash": "e2f15009a75b8c1d8a652a57ff73c828",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/handle-exception": {
+			"name": "handle-exception",
+			"version": "0.1.4",
+			"hash": "1152772d75f59dbb562cc7b7711a8ebe",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse": {
+			"name": "horse",
+			"version": "v2.0.14",
+			"hash": "41019dbdf2f1192f21203235a74d721d",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-basic-auth": {
+			"name": "horse-basic-auth",
+			"version": "v1.1.4",
+			"hash": "e59d096505ebbfe0429830361a2bedd2",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-compression": {
+			"name": "horse-compression",
+			"version": "1.1.3",
+			"hash": "114ff47bbd16ce85fc3ec9d85da462ab",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-cors": {
+			"name": "horse-cors",
+			"version": "1.0.3",
+			"hash": "248f37dd844f5a4c4ff78364e5a86027",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-logger": {
+			"name": "horse-logger",
+			"version": "2.0.2",
+			"hash": "bfb121c6e85b5cfeedbd445c962a3fed",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-logger-provider-logfile": {
+			"name": "horse-logger-provider-logfile",
+			"version": "1.0.2",
+			"hash": "06662520147a72069aee445b4b73f710",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-octet-stream": {
+			"name": "horse-octet-stream",
+			"version": "1.9.5",
+			"hash": "d6f99e77df3c06466741570d88505bae",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/jhonson": {
+			"name": "jhonson",
+			"version": "1.1.2",
+			"hash": "85d9b3c97b5144448440d7d26bdd16de",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		}
+	}
+}
